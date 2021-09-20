@@ -15,6 +15,32 @@ function Cards() {
                             label='Classics' 
                             path='/services'
                         />
+                        <CardItem 
+                            src='assets/images/img-1.jpg' 
+                            text='See these hidden musical gems.' 
+                            label='Classics' 
+                            path='/services'
+                        />
+                    </ul>
+                    <ul className='cards-items'>
+                        <CardItem 
+                            src='assets/images/img-2.jpg' 
+                            text='See these hidden musical gems.' 
+                            label='Classics' 
+                            path='/services'
+                        />
+                        <CardItem 
+                            src='assets/images/img-1.jpg' 
+                            text='See these hidden musical gems.' 
+                            label='Classics' 
+                            path='/services'
+                        />
+                        <CardItem 
+                            src='assets/images/img-3.jpg' 
+                            text='See these hidden musical gems.' 
+                            label='Classics' 
+                            path='/services'
+                        />
                     </ul>
                 </div>
             </div>
