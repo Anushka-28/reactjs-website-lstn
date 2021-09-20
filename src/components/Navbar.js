@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import './Navbar.css';
+import { Button } from './Button';
 import { ReactComponent as LstnLogo } from '../lstn_gold.svg';
+import './Navbar.css';
 
 function Navbar() {
     const [click, setClick] = useState(false);
@@ -36,6 +37,7 @@ function Navbar() {
                         <Link to='/sign-up' className='nav-links-mobile' onClick={closeMobileMenu}>Sign Up</Link>
                     </li>
                 </ul>
+                <Button buttonStyle='btn--outline'>Sign Up</Button>
             </div>
         </nav>
     </>
