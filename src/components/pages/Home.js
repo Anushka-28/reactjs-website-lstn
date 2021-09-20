@@ -1,12 +1,14 @@
 import React from 'react';
 import HeroSection from "../HeroSection";
+import Cards from '../Cards';
 
 function Home() {
     return (
         <>
-        <HeroSection />
+            <HeroSection />
+            <Cards />
         </>
     );
 }
 
-export default HeroSection;
+export default Home;
