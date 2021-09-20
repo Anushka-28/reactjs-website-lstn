@@ -20,9 +20,10 @@ function Navbar() {
         }
     }
     useEffect(() => showButton(), []);
-    // []: the side-effect, i.e. showButton() runs once after the initial rendering
-    // without this, the button is always shown until screen is resized 
-    // because initial value of button in useState is true
+    // https://dmitripavlutin.com/react-useeffect-explanation/
+    /* []: the side-effect, i.e. showButton() runs once after the initial rendering
+       without this, the button is always shown until screen is resized 
+       because initial value of button in useState is true */
     window.addEventListener('resize', showButton);
     // showButton() runs once after each resizing
 
