@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import './App.css';
-import HeroSection from './components/HeroSection';
+import Home from './components/pages/Home';
 import Navbar from './components/Navbar';
 
 function App() {
@@ -9,9 +9,8 @@ function App() {
     <>
       <BrowserRouter>
         <Navbar />
-        <HeroSection />
         <Switch>
-          <Route path='/' exact />
+          <Route path='/' exact component={Home} />
         </Switch>
       </BrowserRouter>
     </>
