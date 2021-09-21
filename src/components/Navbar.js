@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from './Button';
+// LstnLogo => https://stackoverflow.com/a/68149450/12302691
+import { ReactComponent as LstnLogo } from '../logo.svg';
 import './Navbar.css';
 
 function Navbar() {
@@ -33,6 +35,7 @@ function Navbar() {
                 <div>
                     <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
                         lstn
+                        <LstnLogo className='navbar-logo-icon' height="40" width="40" />
                     </Link>
                 </div>
                 <div className='menu-icon' onClick={handleClick}>
