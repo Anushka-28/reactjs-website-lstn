@@ -13,31 +13,21 @@
     align-items: center;
     justify-content: center;
     font-size: 3rem;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
 }
 
 .services {
-    background-image: url('assets/images/img-1.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: #fff;
-    font-size: 100px;
+    background-image: url('images/img-s.jpg');
 }
 
 .products {
-    background-image: url('assets/images/img-2.jpg');
-    background-position: center;
-    background-size: fill;
-    background-repeat: no-repeat;
-    color: #fff;
-    font-size: 100px;
+    background-image: url('images/img-p.jpg');
 }
 
 .sign-up {
-    background-image: url('assets/images/img-3.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: #fff;
-    font-size: 100px;
+    background-image: url('images/img-su.png');
 }
